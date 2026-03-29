@@ -1,0 +1,66 @@
+# ============================================================
+#  .gitignore für 01-Mathematik (Ebook-Lernprojekt)
+# ============================================================
+
+# ----- PDF-Dateien (Ebooks) ---------------------------------
+# PDFs sind oft urheberrechtlich geschützt → nicht ins Repo
+*.pdf
+*.PDF
+
+# Falls du PDFs doch tracken willst, einzelne Ausnahmen so:
+# !Maschinelles-Lernen-Grundlagen.pdf
+
+# ----- Foxit PDF Reader Temporärdateien ---------------------
+*.fdf
+*.xfdf
+*.log
+*.tmp
+*.bak
+
+# ----- Notizen & Annotationen (lokale Tools) ----------------
+*.annot
+*.notes
+*.obsidian/
+.obsidian/
+
+# ----- Betriebssystem ---------------------------------------
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# ----- Editor & IDE -----------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.kate-swp
+
+# ----- Python (falls Jupyter Notebooks o. Ä. dazukommen) ----
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+
+# ----- Diverses ---------------------------------------------
+*.zip
+*.rar
+*.7z
